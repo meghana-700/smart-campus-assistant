@@ -1,0 +1,365 @@
+{
+  "students": [
+    {
+      "id": "student-1",
+      "name": "Meghana Bezawada",
+      "email": "meghanabezawada161@gmail.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "enrollmentNo": "CST-2026-089",
+      "department": "Computer Science & Technology (CST)",
+      "semester": "6th Semester",
+      "role": "student",
+      "attendance": {
+        "Artificial Intelligence": {
+          "total": 40,
+          "present": 36
+        },
+        "Software Engineering": {
+          "total": 35,
+          "present": 32
+        },
+        "Computer Networks": {
+          "total": 38,
+          "present": 31
+        },
+        "Compiler Design": {
+          "total": 42,
+          "present": 34
+        },
+        "Cloud Computing": {
+          "total": 30,
+          "present": 29
+        }
+      },
+      "joinedAt": "2026-06-30T08:52:08.023Z"
+    },
+    {
+      "id": "admin-1",
+      "name": "Dr. Sarah Jenkins",
+      "email": "admin@campus.edu",
+      "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "enrollmentNo": "ADMIN-101",
+      "department": "Information Technology",
+      "semester": "N/A",
+      "role": "admin",
+      "attendance": {},
+      "joinedAt": "2026-06-30T08:52:08.023Z"
+    },
+    {
+      "id": "student-1782810190188",
+      "name": "meghana bezawada",
+      "email": "meghana.bezawada@sasi.ac.in",
+      "passwordHash": "42e4f3464ab024ffa0b435fe05a0a7fa3e276e37a5a0993f099bfe5cb1f1f870",
+      "enrollmentNo": "23K61A0608",
+      "department": "Computer Science & Technology (CST)",
+      "semester": "6th Semester",
+      "role": "student",
+      "attendance": {
+        "Artificial Intelligence": {
+          "total": 0,
+          "present": 0
+        },
+        "Software Engineering": {
+          "total": 0,
+          "present": 0
+        },
+        "Computer Networks": {
+          "total": 0,
+          "present": 0
+        },
+        "Compiler Design": {
+          "total": 0,
+          "present": 0
+        },
+        "Cloud Computing": {
+          "total": 0,
+          "present": 0
+        }
+      },
+      "joinedAt": "2026-06-30T09:03:10.188Z"
+    }
+  ],
+  "timetable": [
+    {
+      "id": "t1",
+      "day": "Monday",
+      "subject": "Artificial Intelligence",
+      "time": "09:00 AM - 10:30 AM",
+      "room": "LH-301",
+      "instructor": "Dr. R. K. Prasad"
+    },
+    {
+      "id": "t2",
+      "day": "Monday",
+      "subject": "Software Engineering",
+      "time": "11:00 AM - 12:30 PM",
+      "room": "LH-302",
+      "instructor": "Prof. Anil Kumar"
+    },
+    {
+      "id": "t3",
+      "day": "Monday",
+      "subject": "Compiler Design Lab",
+      "time": "02:00 PM - 04:00 PM",
+      "room": "Lab-5",
+      "instructor": "Dr. Sarah Jenkins"
+    },
+    {
+      "id": "t4",
+      "day": "Tuesday",
+      "subject": "Computer Networks",
+      "time": "09:00 AM - 10:30 AM",
+      "room": "LH-301",
+      "instructor": "Mrs. S. Roy"
+    },
+    {
+      "id": "t5",
+      "day": "Tuesday",
+      "subject": "Cloud Computing",
+      "time": "11:00 AM - 12:30 PM",
+      "room": "LH-305",
+      "instructor": "Prof. P. Bose"
+    },
+    {
+      "id": "t6",
+      "day": "Wednesday",
+      "subject": "Artificial Intelligence",
+      "time": "09:00 AM - 10:30 AM",
+      "room": "LH-301",
+      "instructor": "Dr. R. K. Prasad"
+    },
+    {
+      "id": "t7",
+      "day": "Wednesday",
+      "subject": "Compiler Design",
+      "time": "11:00 AM - 12:30 PM",
+      "room": "LH-302",
+      "instructor": "Dr. Sarah Jenkins"
+    },
+    {
+      "id": "t8",
+      "day": "Wednesday",
+      "subject": "Technical Seminar",
+      "time": "02:00 PM - 03:30 PM",
+      "room": "Seminar Hall B",
+      "instructor": "Prof. Anil Kumar"
+    },
+    {
+      "id": "t9",
+      "day": "Thursday",
+      "subject": "Computer Networks",
+      "time": "09:00 AM - 10:30 AM",
+      "room": "LH-301",
+      "instructor": "Mrs. S. Roy"
+    },
+    {
+      "id": "t10",
+      "day": "Thursday",
+      "subject": "Software Engineering",
+      "time": "11:00 AM - 12:30 PM",
+      "room": "LH-302",
+      "instructor": "Prof. Anil Kumar"
+    },
+    {
+      "id": "t11",
+      "day": "Friday",
+      "subject": "Cloud Computing",
+      "time": "09:00 AM - 10:30 AM",
+      "room": "LH-305",
+      "instructor": "Prof. P. Bose"
+    },
+    {
+      "id": "t12",
+      "day": "Friday",
+      "subject": "Compiler Design",
+      "time": "11:00 AM - 12:30 PM",
+      "room": "LH-302",
+      "instructor": "Dr. Sarah Jenkins"
+    }
+  ],
+  "exams": [
+    {
+      "id": "e1",
+      "subject": "Artificial Intelligence",
+      "date": "2026-07-15",
+      "time": "10:00 AM - 01:00 PM",
+      "room": "Examination Hall-A",
+      "duration": "3 Hours"
+    },
+    {
+      "id": "e2",
+      "subject": "Computer Networks",
+      "date": "2026-07-17",
+      "time": "10:00 AM - 01:00 PM",
+      "room": "Examination Hall-A",
+      "duration": "3 Hours"
+    },
+    {
+      "id": "e3",
+      "subject": "Compiler Design",
+      "date": "2026-07-20",
+      "time": "10:00 AM - 01:00 PM",
+      "room": "Examination Hall-B",
+      "duration": "3 Hours"
+    },
+    {
+      "id": "e4",
+      "subject": "Software Engineering",
+      "date": "2026-07-22",
+      "time": "10:00 AM - 01:00 PM",
+      "room": "Examination Hall-A",
+      "duration": "3 Hours"
+    },
+    {
+      "id": "e5",
+      "subject": "Cloud Computing",
+      "date": "2026-07-25",
+      "time": "10:00 AM - 01:00 PM",
+      "room": "Examination Hall-B",
+      "duration": "3 Hours"
+    }
+  ],
+  "notices": [
+    {
+      "id": "n1",
+      "title": "End Semester Examinations Timetable Release",
+      "content": "The timetable for the upcoming End Semester Examinations starting from July 15th, 2026 has been published. All students are advised to download the schedules and verify their room allocations. Hall tickets will be issued from July 5th onwards.",
+      "category": "academic",
+      "date": "2026-06-28T10:00:00.000Z",
+      "author": "Office of the Controller of Examinations",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "title": "Google Placement Drive - CSE & IT 2026 Batch",
+      "content": "Google India is organizing a campus placement drive for final year CSE and IT students. Eligible candidates must have a CGPA of 8.0 and above with no active backlogs. Deadline to submit the application form is July 5th, 2026.",
+      "category": "placement",
+      "date": "2026-06-29T14:30:00.000Z",
+      "author": "Training & Placement Officer",
+      "important": true
+    },
+    {
+      "id": "n3",
+      "title": "Annual Tech Fest \"TechStorm 2026\" - Call for Volunteers",
+      "content": "Our annual national-level technical symposium \"TechStorm 2026\" will be held on October 12-14. Core committee nominations are open for events management, sponsorships, web development, and branding teams. Register on the portal.",
+      "category": "event",
+      "date": "2026-06-27T11:15:00.000Z",
+      "author": "Student Activity Council",
+      "important": false
+    }
+  ],
+  "events": [
+    {
+      "id": "ev1",
+      "title": "Workshop on Advanced Deep Learning",
+      "description": "Hands-on practical session covering Transformers, Generative Adversarial Networks (GANs), and Large Language Models using TensorFlow and PyTorch. Guest speaker Dr. Alok Nath from Google AI Research.",
+      "date": "2026-07-08",
+      "time": "10:00 AM - 04:00 PM",
+      "venue": "Sanjay Gandhi Seminar Auditorium",
+      "organizer": "Department of Computer Science",
+      "rsvpCount": 25,
+      "rsvps": [
+        "student-1",
+        "student-1782810190188"
+      ]
+    },
+    {
+      "id": "ev2",
+      "title": "Hackathon: CodeForGood 2026",
+      "description": "A 24-hour coding challenge where teams brainstorm and build innovative solutions addressing real-world environmental sustainability challenges. Cash prizes up for grabs!",
+      "date": "2026-07-12",
+      "time": "09:00 AM onwards",
+      "venue": "Campus Innovation Hub",
+      "organizer": "IEEE Student Chapter",
+      "rsvpCount": 45,
+      "rsvps": []
+    }
+  ],
+  "placements": [
+    {
+      "id": "p1",
+      "company": "Google",
+      "role": "Associate Software Engineer",
+      "type": "job",
+      "eligibility": "B.Tech / M.Tech in CSE / IT with CGPA >= 8.0",
+      "salaryPackage": "₹18,50,000 - ₹24,00,000 LPA",
+      "deadline": "2026-07-05",
+      "description": "Join the Core Engineering team to design, develop, and deploy scalable platforms and next-generation browser capabilities. Requires strong foundations in Data Structures, Algorithms, and System Design.",
+      "status": "active",
+      "appliedStudents": [
+        "student-1",
+        "student-1782810190188"
+      ]
+    },
+    {
+      "id": "p2",
+      "company": "Microsoft",
+      "role": "Software Development Engineer Intern",
+      "type": "internship",
+      "eligibility": "Pre-final Year CSE/ECE/IT students, CGPA >= 7.5",
+      "salaryPackage": "₹80,000 / month stipend",
+      "deadline": "2026-07-10",
+      "description": "A 10-12 week immersive summer internship experience working on real production code inside Azure Core Networks or Microsoft 365 developer suites.",
+      "status": "active",
+      "appliedStudents": [
+        "student-1782810190188"
+      ]
+    },
+    {
+      "id": "p3",
+      "company": "TCS Digital",
+      "role": "Systems Engineer",
+      "type": "job",
+      "eligibility": "Open to all Engineering disciplines with CGPA >= 7.0",
+      "salaryPackage": "₹7,00,000 LPA",
+      "deadline": "2026-07-20",
+      "description": "Accelerate digital transformation journeys for enterprise banking and healthcare systems worldwide. Requires basic proficiency in Python, Java, or Node.js.",
+      "status": "active",
+      "appliedStudents": []
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Artificial Intelligence - Full Lecture Notes",
+      "subject": "Artificial Intelligence",
+      "description": "Complete comprehensive study notes covering Search Algorithms (A*, DFS, BFS), Knowledge Representation, Probabilistic Reasoning, and Introduction to Neural Networks.",
+      "department": "Computer Science & Technology (CST)",
+      "semester": "6th Semester",
+      "downloadUrl": "#",
+      "uploadedBy": "Dr. R. K. Prasad",
+      "fileType": "pdf",
+      "fileSize": "4.2 MB",
+      "downloadsCount": 128,
+      "createdAt": "2026-06-20T08:00:00.000Z"
+    },
+    {
+      "id": "m2",
+      "title": "Compiler Design Lab Manual & Sample Programs",
+      "subject": "Compiler Design",
+      "description": "Detailed laboratory worksheets outlining Lex/Yacc program examples, LL(1) parsers, abstract syntax tree nodes, and basic intermediate code generators.",
+      "department": "Computer Science & Technology (CST)",
+      "semester": "6th Semester",
+      "downloadUrl": "#",
+      "uploadedBy": "Dr. Sarah Jenkins",
+      "fileType": "zip",
+      "fileSize": "1.8 MB",
+      "downloadsCount": 95,
+      "createdAt": "2026-06-22T09:30:00.000Z"
+    },
+    {
+      "id": "m3",
+      "title": "Software Engineering Best Practices Guide",
+      "subject": "Software Engineering",
+      "description": "Curated quick references regarding Agile methodologies, Unified Modeling Language (UML) structural layouts, MVC design patterns, and clean architecture guides.",
+      "department": "Computer Science & Technology (CST)",
+      "semester": "6th Semester",
+      "downloadUrl": "#",
+      "uploadedBy": "Prof. Anil Kumar",
+      "fileType": "pdf",
+      "fileSize": "2.5 MB",
+      "downloadsCount": 64,
+      "createdAt": "2026-06-25T14:15:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Smart Campus Assistant",
+  "description": "A comprehensive digital portal for campus life with timetable trackers, notifications, academic resources, admin management, and an intelligent Gemini AI student query assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
